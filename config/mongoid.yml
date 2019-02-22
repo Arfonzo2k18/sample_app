@@ -157,7 +157,7 @@ test:
     default:
       database: sample_app_test
       hosts:
-        - <%= ENV['MONGODB_URI'] %>
+        - localhost:27017
       options:
         read:
           mode: :primary
@@ -165,5 +165,5 @@ test:
 
 production:
   clients:
-    default:
-uri: <%= ENV['MONGODB_URI'] %>
+    default: 
+uri:
