@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+# Gema para instalar bootstrap con lenguaje de estilos sass
+gem 'bootstrap-sass'
 # Gema para instalar jquery en rails
 gem 'jquery-rails'
 # Gema para hacer migraciones de mongoid
